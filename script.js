@@ -1,5 +1,5 @@
 var text = 'Velociraptor is a genus of herbivorous ceratopsid dinosaur that first appeared during the late Maastrichtian stage of the late Cretaceous period.';
-var	dinosaur = 'triceratops'.toUpperCase();
-var dinosaur = text.replace('Velociraptor', dinosaur);
+	dinosaur = 'triceratops'.toUpperCase();
+	dinosaurReplace = text.replace('Velociraptor', dinosaur);
 
-console.log(dinosaur.substr(0, dinosaur.length/2));
+console.log(dinosaurReplace.substr(0, dinosaurReplace.length/2));
